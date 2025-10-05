@@ -37,6 +37,12 @@ input {
   transition: 0.3s;
 }
 
+/* Placeholder miring */
+::placeholder {
+  font-style: italic;
+  color: #888;
+}
+
 input:focus {
   border-color: #2193b0;
   box-shadow: 0 0 8px rgba(33,147,176,0.4);
